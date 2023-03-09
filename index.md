@@ -34,7 +34,7 @@ As we can see, there are several steps there.
 ### Daily Meetings : Daily meeting is the step where the SCRUM team, product owner, and SCRUM master meet daily and reporting about what have been done and consider to take on more task if the previous task is already done.
 
 ## SCRUM ROLES
-Product Owner : Product owner is someone who will set the product goals,ensure that the product backlog is already clear and updated, order the product backlog based on user priority, and will collect the feedback from user or stakeholders.
+### Product Owner : Product owner is someone who will set the product goals,ensure that the product backlog is already clear and updated, order the product backlog based on user priority, and will collect the feedback from user or stakeholders.
 
 ### SCRUM Master : SCRUM master is basically the leader of the SCRUM team. SCRUM master will helps the SCRUM team to perform at their highest level and performance. SCRUM master will also protect the team from both internal and external distraction.
 
