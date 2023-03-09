@@ -92,5 +92,7 @@ As we can see above, if we consider and maximize the 10 usability heuristics we 
 Another things that we can do to be a good user interface designer are preparing an alternative design so that user can choose the design that gives the user more satisfaction. Next we also have to consider about the best practices in user interface design such as consistency, simplicity, clarity, make the page layout useful, etc.
 
 I hope this page will be usefull for any of you that reading this.
+
 Thank you
+
 Kevin Razaqa Aulia
