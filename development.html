@@ -73,7 +73,7 @@
           <!-- Blog Post -->
 
           <!-- Title -->
-          <h1 class="post-title">Test Driven Programming</h1>
+          <h1 class="post-title">Development&Applying Best Practice</h1>
 
           <!-- Author -->
           <p class="lead">
@@ -87,21 +87,19 @@
           <hr>
 
           <!-- Post Content -->
-          <h2 align="justify">On this section i will focus on what we as a SCRUM team did on our project spesifically about implementing Test Driven Development.</h2>
+          <h2 align="justify">On this section i will focus on what i did on my project spesifically about how i write my code and what best practices that i use.</h2>
           <hr>
-          <h4 align="justify">So, on our project we basically try to implement the test or unit test for every single function that we implemented on our project. The main reason is for making it easier for us to see and manage which code or function that already passed the test and ready to use.</h4>
+          <h4 align="justify">There is several best practices that we can use and aplly to our code to make the code better overall. On this page, i will give some of the best practices that i implement on my project sparql. I will also give the example of the code that "apply" those best practices themselves.</h4>
           <hr>
-          <img src="test1.png" class="fit">
-          <h4 align="justify">As we can see from the picture above we have the test folder in our project to make it even easier for us to manage the test itself.</h4>
-          <h4 align="justify">Other reason for us to use or implementing the TDD on our project is to make us find the bugs faster and more precise.</h4>
-          <h4 align="justify">Now, lets get into the details. I will share with you the real example of working with TDD or test driven development.</h4>
-          <hr>
-          <img src="Screenshot 2023-04-24 184400.png" class="fit">
-          <h4 align="justify">First, we can see that what i did is setting up the variable for the test itself. </h4>
-          <h4 align="justify">Second, as we can see i divided the test into two part to make the coverage even better and we will get the right idea if the code goes wrong or there are couple of bugs that we have to fix. The first part is positive test as we can see for example i made the test for the page and make sure it loads sucessfully. There is a couple more test that i also made fot this part. </h4>
-          <img src="Screenshot 2023-04-24 184346.png" class="fit">
-          <h4 align="justify">Third, we can see from the picture above we have the negative test. This is the second part of the test that i mentioned earlier. On this part of the test, the idea is to make sure that the function that we created work. For example, i tested if the user that have a different role can access the page that can only be accessed with another role. From this part, we would know that if the function not working properly. This part also become important because we cannot tolarate a leak of functionality such as a basic role can do what admin role do. </h4>
-          <hr>        
+          <img src="dev1.png" class="fit">
+          <h4 align="justify">First, the Object Oriented Principle. As we can see from the above picture the code that i wrote is structured in a way that follows OO principles, with related functions grouped together in a class or module. The use of classes and methods, as well as the organization of the code into separate files, demonstrates an understanding of OO concepts.</h4>
+          <img src="sepofconcern.png" class="fit">
+          <h4 align="justify">Second, Separation of Concern. As we can see the code separates concerns by defining separate functions for specific tasks. For example, the register function handles the registration process, while the login_views function handles the login process. This separation of concerns makes the code easier to read, maintain, and test</h4>
+          <h4 align="justify">Third, Dont repeat yourself Principle. We can also see that the code avoids repeating code blocks by defining reusable functions and using them wherever needed. For example, the login function is used to authenticate and log in users in the login_views function as well as in the register function. </h4>          
+          <h4 align="justify">Fourth, Reusability. Also the third principle is connected to this principle where we can reuse the code without repeating the code itself </h4>          
+          <img src="single.png" class="fit">
+          <h4 align="justify">Fifth, Single Responsibility Principle (SRP). As we can see the code applies SRP by defining functions that have a single responsibility. For example, the index function is responsible for rendering the homepage, while the admin function is responsible for rendering the admin page.</h4>
+          
         </div>
     <!-- /.container -->
 
